@@ -1,19 +1,20 @@
-@extends('layouts.app')
+@extends ('layouts.app')
 
 @section('content')
 
-<section class="example">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-12">
-                <div class="card">
-                    <div class="card-header">{{ __('Dashboard') }}</div>
-                    <div class="card-body">
-                        Hello World!!!
-                    </div>
-                </div>
-            </div>
+<section class="banner">
+    <div class="bg-banner"></div>
+    <div class="content">
+        <div class="slogan-first">
+            Learn Anytime, Anywhere <br>
+            <span> at HapoLearn <img src="{{ asset('images/Group_6.png') }}" class="bg-img" alt="">!</span>
         </div>
+        <p class="slogan-second">
+            Interactive lessons, "on-the-go" <br>
+            practice, peer support.
+        </p>
+        <button class="button">
+            Start Learning Now </button>
     </div>
 </section>
 @endsection
