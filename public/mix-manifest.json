@@ -5,8 +5,6 @@
     "/images/CSS.png": "/images/CSS.png",
     "/images/Hapo_Learn_banner.png": "/images/Hapo_Learn_banner.png",
     "/images/html.png": "/images/html.png",
-    "/images/icon-.png": "/images/icon-.png",
-    "/images/java 1.png": "/images/java 1.png",
     "/images/laravel.png": "/images/laravel.png",
     "/images/logo.png": "/images/logo.png",
     "/images/php.png": "/images/php.png",
@@ -14,5 +12,7 @@
     "/fonts/utm_bryantlg-webfont.woff": "/fonts/utm_bryantlg-webfont.woff",
     "/fonts/utm_bryantlg-webfont.woff2": "/fonts/utm_bryantlg-webfont.woff2",
     "/fonts/UTM_BryantLG.ttf": "/fonts/UTM_BryantLG.ttf",
-    "/fonts/UTM_BryantLG_B.ttf": "/fonts/UTM_BryantLG_B.ttf"
+    "/fonts/UTM_BryantLG_B.ttf": "/fonts/UTM_BryantLG_B.ttf",
+    "/images/icon-haposoft.png": "/images/icon-haposoft.png",
+    "/images/java.png": "/images/java.png"
 }

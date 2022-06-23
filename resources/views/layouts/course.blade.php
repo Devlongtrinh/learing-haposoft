@@ -64,7 +64,7 @@
                 <div class="card-body">
                     <h5 class="card-title">CSS Tutorial</h5>
                     <p class="card-text">
-                    I knew hardly anything about HTML, JS, and CSS before entering New Media,...
+                        I knew hardly anything about HTML, JS, and CSS before entering New Media,...
                     </p>
                     <div class="button button-success">
                         <a href="#">take this course</a>
@@ -80,7 +80,7 @@
                 <div class="card-body">
                     <h5 class="card-title">Ruby on rails Tutorial</h5>
                     <p class="card-text">
-                    I knew hardly anything about HTML, JS, and CSS before entering New Media,...
+                        I knew hardly anything about HTML, JS, and CSS before entering New Media,...
                     </p>
                     <div class="button button-success">
                         <a href="#">take this course</a>
@@ -96,7 +96,7 @@
                 <div class="card-body">
                     <h5 class="card-title">Java Tutorial</h5>
                     <p class="card-text">
-                    I knew hardly anything about HTML, JS, and CSS before entering New Media,...
+                        I knew hardly anything about HTML, JS, and CSS before entering New Media,...
                     </p>
                     <div class="button button-success">
                         <a href="#">take this course</a>
