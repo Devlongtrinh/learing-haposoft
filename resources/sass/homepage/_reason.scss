@@ -1,0 +1,38 @@
+.reason {
+    background-image: url("/images/bg-why.png");
+    display: flex;
+
+    .why {
+        color: white;
+        transform: translateY(22%);
+        margin-left: 9%;
+
+        .why-tittle {
+            font-family: 'UTM BryantLG';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 70px;
+            text-transform: capitalize;
+        }
+
+        .why-content {
+            margin-left: 30px;
+
+            .why-list-reason {
+                display: flex;
+
+                .fa-solid {
+                    transform: translateY(6px);
+                    margin-right: 11px;
+                }
+            }
+
+            .why-text {
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 25px;
+                letter-spacing: -0.05em;
+            }
+        }
+    }
+}
