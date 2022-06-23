@@ -16,4 +16,5 @@
         <button class="button"> Start Learning Now </button>
     </div>
 </section>
+<div class="bg-bottom-of-banner"></div>
 @endsection

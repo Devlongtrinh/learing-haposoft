@@ -21,6 +21,7 @@
     <main>
         @yield('content')
     </main>
+    @include('layouts.course')
     @include('layouts.footer')
 
     <script src="{{ asset('js/app.js') }}"></script>
