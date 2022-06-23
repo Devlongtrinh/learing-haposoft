@@ -16,5 +16,4 @@
         </div>
     </div>
 </section>
-<div class="bg-bottom-of-banner"></div>
 @endsection
