@@ -26,5 +26,5 @@
     </div>
     <div class="img-devices">
         <img src="{{ asset('images/Devices.png') }}" class="img-devices-bg" alt="">
-        </div>
+    </div>
 </div>
