@@ -9,16 +9,16 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto w-100">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Home </span></a>
+                    <a class="nav-link" href="#">Home</a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">All Courses</span></a>
+                    <a class="nav-link" href="#">All Courses</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Login/Register</span></a>
+                    <a class="nav-link" href="#">Login/Register</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Profile</span></a>
+                    <a class="nav-link" href="#">Profile</a>
                 </li>
             </ul>
         </div>
