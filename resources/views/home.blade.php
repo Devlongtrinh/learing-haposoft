@@ -1,7 +1,22 @@
-@extends('layouts.app')
+@extends ('layouts.app')
 
 @section('content')
 
+<section class="banner">
+    <div class="bg-banner"></div>
+    <div class="content">
+        <div class="slogan-first">
+            Learn Anytime, Anywhere <br>
+            <span> at HapoLearn <img src="{{ asset('images/icon-haposoft.png') }}" class="bg-img" alt="">!</span>
+        </div>
+        <p class="slogan-second">
+            Interactive lessons, "on-the-go" <br>
+            practice, peer support.
+        </p>
+        <button class="button"> Start Learning Now </button>
+    </div>
+</section>
+<div class="bg-bottom-of-banner"></div>
 <section class="example">
     <div class="container">
         <div class="row justify-content-center">
@@ -82,7 +97,7 @@
                 <div class="card-body">
                     <h5 class="card-title">CSS Tutorial</h5>
                     <p class="card-text">
-                    I knew hardly anything about HTML, JS, and CSS before entering New Media,...
+                        I knew hardly anything about HTML, JS, and CSS before entering New Media,...
                     </p>
                     <div class="button button-success">
                         <a href="#">take this course</a>
@@ -98,7 +113,7 @@
                 <div class="card-body">
                     <h5 class="card-title">Ruby on rails Tutorial</h5>
                     <p class="card-text">
-                    I knew hardly anything about HTML, JS, and CSS before entering New Media,...
+                        I knew hardly anything about HTML, JS, and CSS before entering New Media,...
                     </p>
                     <div class="button button-success">
                         <a href="#">take this course</a>
@@ -114,7 +129,7 @@
                 <div class="card-body">
                     <h5 class="card-title">Java Tutorial</h5>
                     <p class="card-text">
-                    I knew hardly anything about HTML, JS, and CSS before entering New Media,...
+                        I knew hardly anything about HTML, JS, and CSS before entering New Media,...
                     </p>
                     <div class="button button-success">
                         <a href="#">take this course</a>
