@@ -23,10 +23,6 @@
     <main>
         @yield('content')
     </main>
-
-    @include('layouts.course')
-    @include('layouts.reason')
-    @include('layouts.feedback')
     @include('layouts.footer')
 
     <script src="{{ asset('js/app.js') }}"></script>
