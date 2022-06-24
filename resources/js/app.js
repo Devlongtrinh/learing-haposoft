@@ -7,7 +7,6 @@
 import 'slick-carousel/slick/slick';
 
 require('./bootstrap');
-require('./feedback');
 window.Vue = require('vue').default;
 
 /**
@@ -32,4 +31,3 @@ Vue.component('example-component', require('./components/ExampleComponent.vue').
 const app = new Vue({
     el: '#app',
 });
-
