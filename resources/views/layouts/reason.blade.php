@@ -30,6 +30,5 @@
                 <img src="{{ asset('images/Devices.png') }}" class="img-devices" alt="" width="100%">
             </div>
         </div>
-
     </div>
 </section>
