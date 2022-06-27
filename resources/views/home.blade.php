@@ -1,17 +1,21 @@
-@extends ('layouts.app')
+@extends('layouts.app')
 
 @section('content')
 
-<div class="banner">
+<section class="banner">
     <div class="bg-banner"></div>
     <div class="content">
-        <div class="slogan-first">Learn Anytime, Anywhere<br><span>at HapoLearn<img src="{{ asset('images/icon-haposoft.png') }}" class="bg-img" alt="">!</span>
+        <div class="slogan-first">
+            Learn Anytime, Anywhere <br>
+            <span> at HapoLearn <img src="{{ asset('images/icon-haposoft.png') }}" class="bg-img" alt="">!</span>
         </div>
-        <p class="slogan-second">Interactive lessons, "on-the-go"<br>practice, peer support.
+        <p class="slogan-second">
+            Interactive lessons, "on-the-go" <br>
+            practice, peer support.
         </p>
-        <button class="button">Start Learning Now</button>
+        <button class="button"> Start Learning Now </button>
     </div>
-</div>
+</section>
 
 <div class="bg-bottom-of-banner"></div>
 
@@ -70,7 +74,6 @@
         </div>
     </div>
 </div>
-
 <div class="container">
     <div class="heading-courses">Other courses</div>
     <div class="row row-cols-1 row-cols-xs-1 row-cols-sm-1 row-cols-md-1 row-cols-xl-3 g-4">
@@ -129,75 +132,6 @@
     </div>
 </div>
 
-<div class="container-fluid reason">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-6">
-                <div class="why-tittle">why hapolearn?</div>
-                <div class="why-content">
-                    <div class="why-list-reason">
-                        <i class="icon-check fa-solid fa-circle-check"></i>
-                        <p class="why-text">Interactive lessons, "on-the-go" practice, peer support.</p>
-                    </div>
-                    <div class="why-list-reason">
-                        <i class="icon-check fa-solid fa-circle-check"></i>
-                        <p class="why-text">Interactive lessons, "on-the-go" practice, peer support.</p>
-                    </div>
-                    <div class="why-list-reason">
-                        <i class="icon-check fa-solid fa-circle-check"></i>
-                        <p class="why-text">Interactive lessons, "on-the-go" practice, peer support.</p>
-                    </div>
-                    <div class="why-list-reason">
-                        <i class="icon-check fa-solid fa-circle-check"></i>
-                        <p class="why-text">Interactive lessons, "on-the-go" practice, peer support.</p>
-                    </div>
-                    <div class="why-list-reason">
-                        <i class="icon-check fa-solid fa-circle-check"></i>
-                        <p class="why-text">Interactive lessons, "on-the-go" practice, peer support.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm">
-                <img src="{{ asset('images/Devices.png') }}" class="img-devices" alt="" width="100%">
-            </div>
-        </div>
-    </div>
-</div>
-<div class="container-fluid feedback">
-    <div class="feedback-slider">
-        <div class="feedback-items">
-            <div class="feedback-title">
-                “A wonderful course on how to start.
-                Eddie beautifully conveys all essentials of a becoming a good Angular developer.
-                Very glad to have taken this course.
-                Thank you Eddie Bryan.”
-            </div>
-            <div class="feedback-inner">
-                <div class="name">Hoang Anh Nguyen</div>
-                <div class="language">PHP</div>
-                <div class="rate">&#9733; &#9733; &#9733; &#9733; </div>
-            </div>
-        </div>
-    </div>
-    <div class="feedback-slider">
-        <div class="feedback-items">
-            <div class="feedback-title">
-                “A wonderful course on how to start.
-                Eddie beautifully conveys all essentials of a becoming a good Angular developer.
-                Very glad to have taken this course.
-                Thank you Eddie Bryan.”
-            </div>
-            <div class="feedback-inner">
-                <div class="user">
-                    <div class="avatar-user"></div>
-                    <div class="information-user">
-                        <div class="name">Hoang Anh Nguyen</div>
-                        <div class="language">PHP</div>
-                        <div class="rate">&#9733; &#9733; &#9733; &#9733; </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+
+
 @endsection
