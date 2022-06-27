@@ -3,15 +3,15 @@
 
   .why-container {
     text-align: center;
-    padding: 2rem;
+    padding: 4rem;
     padding-right: 0;
 
     .why-content {
+      font-family: UTM BryantLG;
       color: white;
       margin: auto;
       margin-bottom: 5rem;
       line-height: 2;
-      font-family: UTM BryantLG;
     }
   }
 }
@@ -34,12 +34,11 @@
   .why-hapolearn {
     .why-container {
       padding: 0;
-      position: relative;
     }
   }
 
   .why-content {
-    line-height: 1.5;
+    line-height: 2;
 
     .why-heading {
       font-size: 45px;
@@ -70,7 +69,6 @@
   .why-hapolearn {
     .why-container {
       padding: 0;
-      margin-top: 5rem;
 
       .why-content {
         margin-bottom: 0;
@@ -84,7 +82,6 @@
       font-size: 40px;
       text-align: left;
       line-height: 1;
-      position: absolute;
       top: -5rem;
       left: 10rem;
     }
@@ -103,7 +100,7 @@
       padding: 2.5rem;
       margin: auto;
       margin-bottom: 1.5rem;
-      transform: scale(3);
+      transform: scale(3.5);
     }
   }
 }
