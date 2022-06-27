@@ -5,9 +5,9 @@
  */
 // main.js
 import 'slick-carousel/slick/slick';
-
-require('./bootstrap');
 require('./feedback');
+require('./bootstrap');
+
 
 window.Vue = require('vue').default;
 

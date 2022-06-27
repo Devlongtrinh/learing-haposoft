@@ -1,4 +1,6 @@
-$('.my-carousel').slick({
-    slidesToShow: 1,
-    slidesToScroll: 1
-  });
+$(document).ready(function () {
+    $(".feedback-slider").slick({
+        slidesToShow: 2,
+        infinite: true,
+    });
+});

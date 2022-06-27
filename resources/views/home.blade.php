@@ -2,7 +2,7 @@
 
 @section('content')
 
-<section class="banner">
+<div class="banner">
     <div class="bg-banner"></div>
     <div class="content">
         <div class="slogan-first">Learn Anytime, Anywhere<br><span>at HapoLearn<img src="{{ asset('images/icon-haposoft.png') }}" class="bg-img" alt="">!</span>
@@ -11,7 +11,7 @@
         </p>
         <button class="button">Start Learning Now</button>
     </div>
-</section>
+</div>
 
 <div class="bg-bottom-of-banner"></div>
 
@@ -129,7 +129,7 @@
     </div>
 </div>
 
-<section class="container-fluid reason">
+<div class="container-fluid reason">
     <div class="container">
         <div class="row">
             <div class="col-sm-6">
@@ -162,21 +162,37 @@
             </div>
         </div>
     </div>
-</section>
-
-<div class="my-carousel">
-
-  <div class="carousel-title">
-  “A wonderful course on how to start.
-  Eddie beautifully conveys all essentials of a becoming a good Angular developer.
-  Very glad to have taken this course.
-  Thank you Eddie Bryan.”
-  </div>
-  <div class="carousel-inner">
-    <div class="name">Hoang Anh Nguyen</div>
-    <div class="language">PHP</div>
-    <div class="rate">&#9733; &#9733;</div>
-  </div>
 </div>
-
+<div class="container-fluid feedback">
+    <div class="feedback-slider">
+        <div class="feedback-items">
+            <div class="feedback-title">
+                “A wonderful course on how to start.
+                Eddie beautifully conveys all essentials of a becoming a good Angular developer.
+                Very glad to have taken this course.
+                Thank you Eddie Bryan.”
+            </div>
+            <div class="feedback-inner">
+                <div class="name">Hoang Anh Nguyen</div>
+                <div class="language">PHP</div>
+                <div class="rate">&#9733; &#9733; &#9733; &#9733; </div>
+            </div>
+        </div>
+    </div>
+    <div class="feedback-slider">
+        <div class="feedback-items">
+            <div class="feedback-title">
+                “A wonderful course on how to start.
+                Eddie beautifully conveys all essentials of a becoming a good Angular developer.
+                Very glad to have taken this course.
+                Thank you Eddie Bryan.”
+            </div>
+            <div class="feedback-inner">
+                <div class="name">Hoang Anh Nguyen</div>
+                <div class="language">PHP</div>
+                <div class="rate">&#9733; &#9733; &#9733; &#9733; </div>
+            </div>
+        </div>
+    </div>
+</div>
 @endsection
