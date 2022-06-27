@@ -1,5 +1,7 @@
 @extends ('layouts.app')
+
 @section('content')
+
 <section class="banner">
     <div class="bg-banner"></div>
     <div class="content">
@@ -68,6 +70,11 @@
                 </div>
             </div>
         </div>
+        <p class="slogan-second">
+            Interactive lessons, "on-the-go" <br>
+            practice, peer support.
+        </p>
+        <button class="button"> Start Learning Now </button>
     </div>
 </div>
 <div class="container">
