@@ -41,14 +41,13 @@
     color: #505353;
   }
 
-  .nav-item.active .nav-link {
-    background-color: $main-color;
-    color: #fff;
-  }
+.navbar {
+  display: flex;
+}
 
-  .logo-image {
-    transform: translateY(-6px);
-  }
+.navbar-brand {
+  padding-left: 44px;
+}
 
   @media (max-width: 1020px) and (min-width: 990px) {
     .nav-link {
