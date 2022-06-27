@@ -1,6 +1,6 @@
 .main-header {
   border-bottom: 4px solid #f5f5f5;
-  font-family: Open Sans;
+  font-family: 'Open Sans' ;
 }
 
 .navbar {
@@ -67,14 +67,14 @@
 
   .logo-image {
     width: 224px;
-    height: 50.81px;
+    height: 51px;
   }
 }
 
 @media (max-width: 439px) {
   .logo-image {
     width: 150px;
-    height: 26.75px;
+    height: 27px;
   }
 
   .navbar {
