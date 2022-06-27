@@ -1,0 +1,38 @@
+.feedback {
+  .feedback-slider {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    align-items: center;
+
+    .feedback-items {
+      font-family: 'UTM BryantLG';
+
+      .feedback-title {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+      }
+
+      .feedback-inner {
+        .information-user{
+        font-weight: 700;
+        .name {
+          font-size: 20px;
+          line-height: 25px;
+          color: #11114E;
+        }
+
+        .language {
+          font-size: 16px;
+          line-height: 20px;
+          color: #505353;
+        }
+        .rate{
+            color: yellow;
+        }
+    }
+      }
+    }
+  }
+}

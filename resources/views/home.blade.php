@@ -188,9 +188,14 @@
                 Thank you Eddie Bryan.”
             </div>
             <div class="feedback-inner">
-                <div class="name">Hoang Anh Nguyen</div>
-                <div class="language">PHP</div>
-                <div class="rate">&#9733; &#9733; &#9733; &#9733; </div>
+                <div class="user">
+                    <div class="avatar-user"></div>
+                    <div class="information-user">
+                        <div class="name">Hoang Anh Nguyen</div>
+                        <div class="language">PHP</div>
+                        <div class="rate">&#9733; &#9733; &#9733; &#9733; </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
