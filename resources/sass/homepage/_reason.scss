@@ -1,94 +1,109 @@
-.reason {
-  width: 100%;
+.why-hapolearn {
   background-image: url("/images/bg-why.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 20px 0;
-  font-family: "UTM BryantLG";
-  color: white;
 
-  .container {
-    .row {
-      justify-content: space-between;
-      display: flex;
-      flex-wrap: nowrap;
-      margin-right: -15px;
-      margin-left: -15px;
+  .why-container {
+    text-align: center;
+    padding: 2rem;
+    padding-right: 0;
+
+    .why-content {
+      color: white;
+      margin: auto;
+      margin-bottom: 5rem;
+      line-height: 2;
+      font-family: UTM BryantLG;
+    }
+  }
+}
+
+.why-content {
+  .why-heading {
+    font-size: 70px;
+    text-transform: capitalize;
+  }
+
+  .why-container-list {
+    .why-item {
+      font-size: 20px;
+      font-weight: 400;
+    }
+  }
+}
+
+@media (min-width: 577px) and (max-width: 991px) {
+  .why-hapolearn {
+    .why-container {
+      padding: 0;
+      position: relative;
+    }
+  }
+
+  .why-content {
+    line-height: 1.5;
+
+    .why-heading {
+      font-size: 45px;
+      position: absolute;
+      width: 100%;
+      left: 20vw;
     }
 
-    .col-sm,
-    .col-sm-6 {
-      transform: translateY(18%);
+    .why-container-list {
+      padding-top: 7em;
 
-      .why-tittle {
-        font-weight: 700;
-        font-size: 60px;
-        line-height: 86px;
-        text-align: center;
-        letter-spacing: -0.02em;
-        text-transform: capitalize;
+      .why-item {
+        font-size: 13px;
+        font-weight: 400;
       }
+    }
+  }
+
+  .why-container {
+    .why-image {
+      padding-top: 5rem;
+      left: -5rem;
+    }
+  }
+}
+
+@media (min-width: 375px) and (max-width: 576px) {
+  .why-hapolearn {
+    .why-container {
+      padding: 0;
+      margin-top: 5rem;
 
       .why-content {
-        .why-list-reason {
-          display: flex;
-          align-items: center;
-          margin: 10px 0;
-
-          .icon-check {
-            transform: translateY(-6px);
-            font-size: 25px;
-            margin-right: 11px;
-          }
-
-          .why-text {
-            font-weight: 400;
-            font-size: 20px;
-            line-height: 25px;
-            letter-spacing: -0.05em;
-          }
-        }
+        margin-bottom: 0;
+        margin-top: 7rem;
       }
     }
   }
-}
 
-@media (min-width: 780px) and (max-width: 1440px) {
+  .why-content {
+    .why-heading {
+      font-size: 40px;
+      text-align: left;
+      line-height: 1;
+      position: absolute;
+      top: -5rem;
+      left: 10rem;
+    }
 
-  .why-tittle {
-    font-size: 50px;
-    transform: translateX(62%) translateY(-40%);
-  }
-
-  .img-devices {
-    margin-top: 53px;
-    margin-bottom: 100px;
-  }
-
-  .reason {
-    width: 100%;
-
-    .container {
-      .row {
-        .why-content {
-          .why-list-reason {
-            .why-text {
-              font-size: 16px;
-            }
-          }
-        }
+    .why-container-list {
+      .why-item {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 3;
       }
     }
   }
-}
 
-@media(max-width: 780px) {
-  .reason {
-    .container {
-      .row {
-        display: flex;
-        flex-direction: column;
-      }
+  .why-container {
+    .why-image {
+      padding: 2.5rem;
+      margin: auto;
+      margin-bottom: 1.5rem;
+      transform: scale(3);
     }
   }
 }
