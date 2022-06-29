@@ -1,24 +1,27 @@
+<<<<<<< HEAD
 @extends('layouts.app')
+=======
+@extends ('layouts.app')
+>>>>>>> 30f262eb4802777f8bd80647d01ecb89b8aa6df6
 
 @section('content')
 
 <section class="banner">
     <div class="bg-banner"></div>
     <div class="content">
-        <div class="slogan-first">
-            Learn Anytime, Anywhere <br>
-            <span> at HapoLearn <img src="{{ asset('images/icon-haposoft.png') }}" class="bg-img" alt="">!</span>
+        <div class="slogan-first">Learn Anytime, Anywhere<br><span>at HapoLearn<img src="{{ asset('images/icon-haposoft.png') }}" class="bg-img" alt="...">!</span>
         </div>
-        <p class="slogan-second">
-            Interactive lessons, "on-the-go" <br>
-            practice, peer support.
+        <p class="slogan-second">Interactive lessons, "on-the-go"<br>practice, peer support.
         </p>
-        <button class="button"> Start Learning Now </button>
+        <button class="button">Start Learning Now</button>
     </div>
 </section>
 
 <div class="bg-bottom-of-banner"></div>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 30f262eb4802777f8bd80647d01ecb89b8aa6df6
 <div class="container main">
     <div class="row row-cols-1 row-cols-xs-1 row-cols-sm-1 row-cols-md-1 row-cols-xl-3 g-4">
         <div class="col">
@@ -131,7 +134,37 @@
         <i class="fa-solid fa-arrow-right-long"></i>
     </div>
 </div>
-
-
+<div class="container-fluid why-hapolearn">
+    <div class="row why-container">
+        <div class="col-gl-6 col-xl-6 col-sm-7 col-md-7 col-xs-12 why-content">
+            <div class="why-heading">why hapoLearn?</div>
+            <div class="why-container-list">
+                <div class="why-item">
+                    <i class="far fa-check-circle"></i>
+                    <span>Interactive lessons, "on-the-go" practice, peer support.</span>
+                </div>
+                <div class="why-item">
+                    <i class="far fa-check-circle"></i>
+                    <span>Interactive lessons, "on-the-go" practice, peer support.</span>
+                </div>
+                <div class="why-item">
+                    <i class="far fa-check-circle"></i>
+                    <span>Interactive lessons, "on-the-go" practice, peer support.</span>
+                </div>
+                <div class="why-item">
+                    <i class="far fa-check-circle"></i>
+                    <span>Interactive lessons, "on-the-go" practice, peer support.</span>
+                </div>
+                <div class="why-item">
+                    <i class="far fa-check-circle"></i>
+                    <span>Interactive lessons, "on-the-go" practice, peer support.</span>
+                </div>
+            </div>
+        </div>
+        <div class="col-gl-6 col-xl-6 col-6 col-sm-5 col-md-5 col-xs-12 why-image">
+            <img src="{{ asset('images/Devices.png') }}" class="col-12" alt="...">
+        </div>
+    </div>
+</div>
 
 @endsection

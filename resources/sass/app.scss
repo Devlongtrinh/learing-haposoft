@@ -10,11 +10,6 @@
 // Variables
 @import 'variables';
 
-// main.scss -- I'm using Wepback sass-loader
-@import "~slick-carousel/slick/slick";
-@import "~slick-carousel/slick/slick-theme";
-
-// Variables
 @import 'homepage/_header';
 @import 'homepage/_banner';
 @import 'homepage/_course';
