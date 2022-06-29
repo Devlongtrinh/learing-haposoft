@@ -6,7 +6,7 @@
   }
 
   .content {
-    font-family: UTM BryantLG;
+    font-family: 'UTM BryantLG';
     top: 50%;
     left: 60px;
     transform: translateY(-50%);
@@ -14,27 +14,27 @@
     .slogan-first {
       color: #11114e;
       font-weight: 400;
-      font-size: 3.74vw;
-      line-height: 4.24vw;
+      font-size: 50px;
+      line-height: 61px;
     }
 
     .slogan-second {
       color: #505353;
       margin: 20px 0;
-      font-size: 1.389vw;
-      line-height: 1.7vw;
+      font-size: 20px;
+      line-height: 25px;
     }
 
     .button {
-      color: #fff;
+      color: white;
       font-weight: 700;
       background-color: $main-color;
       border-radius: 35px;
       box-shadow: 0 -5px #94af2b;
-      line-height: 2.56vw;
-      font-size: 2.083vw;
+      line-height: 37px;
+      font-size: 30px;
       border: 0;
-      padding: 1.18vw 3.89vw;
+      padding: 16px 67px;
     }
   }
 }
@@ -56,65 +56,51 @@
 
     .bg-banner {
       background-image: url("/images/Hapo_Learn_banner.png");
-      padding-top: 45.486%;
+      padding-top: 45.5%;
     }
 
     .content {
-      font-family: 'UTM BryantLG';
-      top: 50%;
-      left: 60px;
-      transform: translateY(-50%);
+      position: absolute;
+    }
+  }
+}
+
+@media (max-width: 768px) and (min-width: 375px) {
+  .banner {
+    position: relative;
+
+    .bg-banner {
+      background-image: url("/images/Hapo_Learn_banner.png");
+      padding-top: 49.5%;
+    }
+
+    .content {
+      position: absolute;
+      left: 27px;
 
       .slogan-first {
-        color: #11114e;
-        font-weight: 400;
-        font-size: 50px;
-        line-height: 61px;
+        font-size: 30px;
+        line-height: 37px;
       }
 
       .slogan-second {
-        color: #505353;
-        margin: 20px 0;
-        font-size: 20px;
-        line-height: 25px;
+        font-size: 16px;
+        line-height: 20px;
       }
 
       .button {
-        color: white;
-        font-weight: 700;
-        background-color: $main-color;
-        border-radius: 35px;
-        box-shadow: 0 -5px #94af2b;
-        line-height: 37px;
-        font-size: 30px;
+        font-size: 16px;
+        line-height: 20px;
         border: 0;
-        padding: 16px 67px;
+        padding: 9px 35px;
       }
     }
   }
 
-  .banner .slogan-first {
-    span {
-      font-weight: 700;
-    }
-  }
-
-  .bg-bottom-of-banner {
-    height: 161px;
-    background: #E5E5E5;
-  }
-
-  @media (min-width: 770px) {
-    .banner {
-      position: relative;
-
-      .bg-banner {
-        background-image: url("/images/Hapo_Learn_banner.png");
-        padding-top: 45.5%;
-      }
-
-      .content {
-        position: absolute;
+  .banner {
+    .content {
+      .slogan-first-img {
+        width: 40px;
       }
     }
   }
@@ -125,83 +111,40 @@
     display: flex;
     flex-direction: column;
 
-      .bg-banner {
-        background-image: url("/images/Hapo_Learn_banner.png");
-        padding-top: 49.5%;
-      }
-
-      .content {
-        position: absolute;
-        left: 27px;
-
-        .slogan-first {
-          font-size: 30px;
-          line-height: 37px;
-        }
-
-        .slogan-second {
-          font-size: 16px;
-          line-height: 20px;
-        }
-
-        .button {
-          font-size: 16px;
-          line-height: 20px;
-          border: 0;
-          padding: 9px 35px;
-        }
-      }
+    .bg-banner {
+      background-image: url("/images/Hapo_Learn_banner.png");
+      padding-top: 45.5%;
     }
 
-    .banner {
-      .content {
-        .slogan-first-img {
-          width: 40px;
-        }
+    .content {
+      margin: 110px 0 0 60px;
+      display: flex;
+      flex-direction: column;
+
+      .slogan-first {
+        font-size: 25px;
+        line-height: 31px;
+      }
+
+      .slogan-second {
+        font-size: 16px;
+        line-height: 20px;
+      }
+
+      .button {
+        font-size: 18px;
+        line-height: 22px;
+        border: 0;
+        padding: 12px 52px;
+        align-self: center;
       }
     }
   }
 
-  @media (max-width: 375px) {
-    .banner {
-      display: flex;
-      flex-direction: column;
-
-      .bg-banner {
-        background-image: url("/images/Hapo_Learn_banner.png");
-        padding-top: 45.5%;
-      }
-
-      .content {
-        margin: 110px 0 0 60px;
-        display: flex;
-        flex-direction: column;
-
-        .slogan-first {
-          font-size: 25px;
-          line-height: 31px;
-        }
-
-        .slogan-second {
-          font-size: 16px;
-          line-height: 20px;
-        }
-
-        .button {
-          font-size: 18px;
-          line-height: 22px;
-          border: 0;
-          padding: 12px 52px;
-          align-self: center;
-        }
-      }
-    }
-
-    .banner {
-      .content {
-        .bg-img {
-          width: 34px;
-        }
+  .banner {
+    .content {
+      .bg-img {
+        width: 34px;
       }
     }
   }
