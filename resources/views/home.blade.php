@@ -12,7 +12,9 @@
         <button class="button">Start Learning Now</button>
     </div>
 </section>
+
 <div class="bg-bottom-of-banner"></div>
+
 <div class="container main">
     <div class="row row-cols-1 row-cols-xs-1 row-cols-sm-1 row-cols-md-1 row-cols-xl-3 g-4">
         <div class="col">
@@ -125,10 +127,11 @@
         <i class="fa-solid fa-arrow-right-long"></i>
     </div>
 </div>
+
 <div class="container-fluid why-hapolearn">
     <div class="row why-container">
         <div class="col-gl-6 col-xl-6 col-sm-7 col-md-7 col-xs-12 why-content">
-            <div class="why-heading">why hapoLearn?</div>
+            <div class="why-header">why hapoLearn?</div>
             <div class="why-container-list">
                 <div class="why-item">
                     <i class="far fa-check-circle"></i>
