@@ -3,11 +3,15 @@
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
-
+@import '~@fortawesome/fontawesome-free/scss/brands';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
 // Variables
 @import 'variables';
 
 // Variables
 @import 'homepage/_header';
 @import 'homepage/_banner';
+@import 'homepage/_course';
 @import 'homepage/_reason';
