@@ -122,79 +122,87 @@
         </div>
     </section>
 
-    <section class="banner-footer">
-        <div class="banner-footer-content">
-            <p>Become a member of our
-                growing community!</p>
-            <button class="button-banner">Start Learning Now!</button>
-        </div>
-        <div class="footer-static">
-            <div class="header-footer-static">
-                <h2 class="title">Statistic</h2>
-                <div class="static-courses">
-                    <div class="course-item">
-                        <p class="name-course">Courses</p>
-                        <span>1,586</span>
-                    </div>
-                    <div class="course-item">
-                        <p class="name-course">Lessons</p>
-                        <span>1,586</span>
-                    </div>
-                    <div class="course-item">
-                        <p class="name-course">Learners</p>
-                        <span>1,586</span>
-                    </div>
-                </div>
+    <div class="container-fluid statistic-banner">
+        <div class="statistic-container">
+            <div class="statistic-banner-title">Become a member of our<br>
+                growing community!
             </div>
-            <div class="footer-bottom">
-                <div class="contact">
-                    <img src="{{ asset('images/logo.png') }}" alt="...">
-                    <p>Interactive lessons, "on-the-go"
-                        practice, peer support.</p>
-                </div>
-                <div class="link">
-                    <ul>
-                        <li>
-                            <a href="">Home</a>
-                        </li>
-                        <li>
-                            <a href="">Features</a>
-                        </li>
-                        <li>
-                            <a href="">Courses</a>
-                        </li>
-                        <li>
-                            <a href="">Blog</a>
-                        </li>
-                    </ul>
-                    <ul>
-                        <li>
-                            <a href="">Contact</a>
-                        </li>
-                        <li>
-                            <a href="">Terms Of Use</a>
-                        </li>
-                        <li>
-                            <a href="">FQA</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="footer-bottom-icon">
-                    <div class="icon-contact">
-                        <i class="fa-brands fa-facebook-f"></i>
-                    </div>
-                    <div class="icon-contact">
-                        <i class="fa-solid fa-phone"></i>
-                    </div>
-                    <div class="icon-contact">
-                        <i class="fa-solid fa-envelope"></i>
-                    </div>
-                </div>
-            </div>
-            <div class="copyright">
-                © 2020 HapoLearn, Inc. All rights reserved.
+            <div class="statistic-button">
+                Start Learning Now!
             </div>
         </div>
-    </section>
+    </div>
+    <div class="container statistic">
+        <div class="heading-statistic">statistic</div>
+        <div class="row row-cols-1 row-cols-sm-3 row-cols-md-3 row-cols-xl-3 g-4">
+            <div class="col">
+                <div class="h-100 list-item">
+                    <div class="list-title">course</div>
+                    <div class="list-data">1,586</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="h-100 list-item">
+                    <div class="list-title">lessons</div>
+                    <div class="list-data">2,689</div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="h-100 list-item">
+                    <div class="list-title">learners</div>
+                    <div class="list-data">16,882</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="contact">
+            <img src="{{ asset('images/logo.png') }}" alt="...">
+            <p>Interactive lessons, "on-the-go"
+                practice, peer support.</p>
+        </div>
+        <div class="link">
+            <ul>
+                <li>
+                    <a href="">Home</a>
+                </li>
+                <li>
+                    <a href="">Features</a>
+                </li>
+                <li>
+                    <a href="">Courses</a>
+                </li>
+                <li>
+                    <a href="">Blog</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="">Contact</a>
+                </li>
+                <li>
+                    <a href="">Terms Of Use</a>
+                </li>
+                <li>
+                    <a href="">FQA</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-bottom-icon">
+            <div class="icon-contact">
+                <i class="fa-brands fa-facebook-f"></i>
+            </div>
+            <div class="icon-contact">
+                <i class="fa-solid fa-phone"></i>
+            </div>
+            <div class="icon-contact">
+                <i class="fa-solid fa-envelope"></i>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        © 2020 HapoLearn, Inc. All rights reserved.
+    </div>
+    </div>
 
 </footer>
