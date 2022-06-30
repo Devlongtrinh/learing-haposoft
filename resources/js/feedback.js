@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  $('.header-footer-content').slick({
+  $('.slide-show').slick({
     slidesToShow: 2,
     slidesToScroll: 2,
     infinite: true,

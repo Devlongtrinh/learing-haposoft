@@ -21,7 +21,7 @@
             </a>
         </div>
     </section>
-    <section class="container feedback">
+    <div class="container feedback">
         <div class="feedback-top">
             <div class="heading-courses">Feedback</div>
             <div class="feedback-description">What other students turned professionals have to say about us<br>
@@ -120,7 +120,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </div>
 
     <section class="banner-footer">
         <div class="banner-footer-content">
