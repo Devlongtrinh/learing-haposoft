@@ -6,7 +6,7 @@ $(document).ready(function () {
     prevArrow: "<button type='button' class='slick-prev pull-left'><i class='fas fa-chevron-circle-left slick-arrow' aria-hidden='true'></i></button>",
     nextArrow: "<button type='button' class='slick-next pull-right'><i class='fas fa-chevron-circle-right slick-arrow' aria-hidden='true'></i></button>",
     responsive: [{
-      breakpoint: 991,
+      breakpoint: 990,
       settings: {
         slidesToShow: 1,
       }
