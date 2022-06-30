@@ -25,21 +25,17 @@ $main-color: #B2D235;
 }
 
 // Typography
-$font-family-sans-serif: 'Nunito',
-  sans-serif;
+$font-family-sans-serif: 'Nunito', sans-serif;
+$font-family-UTM: "UTM BryantLG";
 $font-size-base: 0.9rem;
 $line-height-base: 1.6;
 // Colors
-$blue: #3490dc;
-$indigo: #6574cd;
-$purple: #9561e2;
-$pink: #f66d9b;
-$red: #e3342f;
+$light-gray: #D9DADC;
+$gray: #505353;
+$blue: #11114E;
 $orange: #f6993f;
-$yellow: #ffed4a;
-$green: #38c172;
-$teal: #4dc0b5;
-$cyan: #6cb2eb;
+$yellow: #F2C54F;
+$white: #E2E2E2;
 
 main {
   min-height: 54vh;
