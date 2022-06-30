@@ -38,7 +38,7 @@
                         </div>
                     </div>
                     <div class="row user-comment">
-                        <img src="{{ asset('images/image-user.png') }}" class="user-avatar" alt="...">
+                        <img src="{{ asset('images/avatar-user.png') }}" class="user-avatar" alt="...">
                         <div class="feedback-user-info col-8">
                             <div class="user-name">hoang anh nguyen</div>
                             <div class="user-category">PHP</div>
@@ -60,7 +60,7 @@
                         </div>
                     </div>
                     <div class="row user-comment">
-                        <img src="{{ asset('images/image-user.png') }}" class="user-avatar" alt="...">
+                        <img src="{{ asset('images/avatar-user.png') }}" class="user-avatar" alt="...">
                         <div class="feedback-user-info col-8">
                             <div class="user-name">tuan tran hoang</div>
                             <div class="user-category">Python</div>
@@ -82,7 +82,7 @@
                         </div>
                     </div>
                     <div class="row user-comment">
-                        <img src="{{ asset('images/image-user.png') }}" class="user-avatar" alt="...">
+                        <img src="{{ asset('images/avatar-user.png') }}" class="user-avatar" alt="...">
                         <div class="feedback-user-info col-8">
                             <div class="user-name">hoang anh nguyen</div>
                             <div class="user-category">PHP</div>
@@ -104,7 +104,7 @@
                         </div>
                     </div>
                     <div class="row user-comment">
-                        <img src="{{ asset('images/image-user.png') }}" class="user-avatar" alt="...">
+                        <img src="{{ asset('images/avatar-user.png') }}" class="user-avatar" alt="...">
                         <div class="feedback-user-info col-8">
                             <div class="user-name">tuan tran hoang</div>
                             <div class="user-category">Python</div>
