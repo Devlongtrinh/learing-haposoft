@@ -203,6 +203,5 @@
     <div class="copyright">
         © 2020 HapoLearn, Inc. All rights reserved.
     </div>
-    </div>
 
 </footer>

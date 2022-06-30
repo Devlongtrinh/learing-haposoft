@@ -4,7 +4,7 @@
   object-fit: cover;
   background-image: url("/images/bg-become.png");
   align-items: center;
-  font-family: 'UTM BryantLG';
+  font-family: $font-family-UTM;
   margin-top: 3rem;
 
   .statistic-container {
@@ -22,7 +22,7 @@
 
     .statistic-button {
       @extend .button-main;
-      color: #B2D235;
+      color: $main-color;
       font-size: 30px;
       font-weight: 700;
       background-color: white;
@@ -34,7 +34,7 @@
 
 .statistic {
   text-transform: capitalize;
-  font-family: 'UTM BryantLG';
+  font-family: $font-family-UTM;
 
   .heading-statistic {
     font-weight: 700;
