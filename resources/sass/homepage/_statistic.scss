@@ -1,0 +1,124 @@
+.statistic-banner {
+  background-size: cover;
+  padding: 5rem;
+  object-fit: cover;
+  background-image: url("/images/bg-become.png");
+  align-items: center;
+  font-family: $font-family-UTM;
+  margin-top: 3rem;
+
+  .statistic-container {
+    margin: auto;
+    text-align: center;
+    line-height: 1.5;
+
+    .statistic-banner-title {
+      color: white;
+      font-size: 60px;
+      letter-spacing: -2%;
+      font-weight: 700;
+      margin-bottom: 2rem;
+    }
+
+    .statistic-button {
+      @extend .button-main;
+      color: $main-color;
+      font-size: 30px;
+      font-weight: 700;
+      background-color: white;
+      width: 13em;
+      margin: auto;
+    }
+  }
+}
+
+.statistic {
+  text-transform: capitalize;
+  font-family: $font-family-UTM;
+
+  .heading-statistic {
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 98px;
+    color: $blue;
+  }
+}
+
+.col {
+  margin-bottom: 1rem;
+
+  .list-item {
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: -5%;
+
+    .list-title {
+      font-weight: 700;
+      color: $blue;
+    }
+
+    .list-data {
+      font-weight: 400;
+      color: $main-color;
+    }
+  }
+}
+
+@media (min-width: 380px) and (max-width: 768px) {
+  .statistic-banner {
+    background-size: 100% 100%;
+
+    .statistic-container {
+      .statistic-banner-title {
+        font-size: 30px;
+      }
+
+      .statistic-button {
+        font-size: 20px;
+      }
+    }
+  }
+
+  .statistic {
+    .heading-statistic {
+      width: 8.5em;
+    }
+  }
+
+  .col {
+    .list-item {
+      letter-spacing: -5%;
+      font-size: 40px;
+    }
+  }
+}
+
+@media (max-width: 380px) {
+  .statistic-banner {
+    background-size: 100% 100%;
+    padding: 3rem;
+
+    .statistic-container {
+      .statistic-banner-title {
+        font-size: 18px;
+      }
+
+      .statistic-button {
+        font-size: 14px;
+      }
+    }
+  }
+
+  .statistic {
+    .heading-statistic {
+      width: 4em;
+    }
+  }
+
+  .col {
+    .list-item {
+      letter-spacing: -5%;
+      font-size: 40px;
+    }
+  }
+}
